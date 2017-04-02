@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+div.header {
+    background-color: #303040;
+    height: 40px;
+    width: 100%;
+}
+
+ul.nav_elements li img {
+    position: absolute;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+div.nav {
+    top: 0px;
+}
+
+ul.nav_elements {
+    list-style-type: none;
+    float: left;
+    margin-top: 12px;
+}
+
+ul.nav_elements li {
+    display: inline;
+    border-collapse: collapse;
+}
+
+ul.nav_elements li a {
+    color: #ffffff;
+    padding: 10px;
+    background-color: #303040;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 13px;
+}
+
+div.rnav {
+    top: 0px;
+    float: right;
+}
+
+ul.rnav_elements {
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+ul.rnav_elements li {
+    display: inline;
+    border-collapse: collapse;
+}
+
+ul.rnav_elements li a {
+    color: #9f9f9f;
+    padding: 10px;
+    background-color: #303040;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul.nav_elements li a:hover {
+    color: green;
+}
+
+ul.rnav_elements li a:hover {
+    color: #ffffff;
+}
+
+#hire {
+    background-color: red;
+    color: white;
+    font-size: 9px;
+    border: none;
+    padding: 4px 7px 4px 7px;
+    border-radius: 1px;
+    font-weight: bold;
+}
+
+#loc {
+    display: inline-block;
+}
+
+ul.rnav_elements li>a>img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+ul.rnav_elements li>a>div>img {
+    height: 30px;
+    width: 30px;
+    display: inline;
+    position: absolute;
+    margin-top: -5px;
+}
+
+div.brand-header {
+    height: 70px;
+    width: 100%;
+    background-color: #303040;
+    opacity: 0.6;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    height: 70px;
+    margin: -6px 10px;
+    padding: 0px;
+}
+
+#t20 {
+    vertical-align: middle;
+    position: absolute;
+    top: 50px;
+}
+
+#lang {
+    width: 6vw;
+    border-radius: 3px;
+    font-family: Verdana;
+}
+
+div.rbrand_header {}
