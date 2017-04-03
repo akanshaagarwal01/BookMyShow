@@ -1,136 +1,157 @@
-body {
+.body {
     margin: 0px;
     padding: 0px;
+}
+
+* {
     font-family: verdana;
 }
 
-div.header {
+.header {
     background-color: #303040;
     height: 40px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: ;
 }
 
-ul.nav_elements li img {
-    position: absolute;
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    margin-left: -30px;
-    margin-top: -10px;
+.lnav {
+    width: 50%;
 }
 
-div.nav {
-    top: 0px;
-}
-
-ul.nav_elements {
-    list-style-type: none;
-    float: left;
-    margin-top: 12px;
-}
-
-ul.nav_elements li {
-    display: inline;
-    border-collapse: collapse;
-}
-
-ul.nav_elements li a {
-    color: #ffffff;
-    padding: 10px;
-    background-color: #303040;
+div.lnav li a {
     text-decoration: none;
-    font-family: verdana;
+    color: #ffffff;
     font-size: 13px;
+    padding: 10px;
 }
 
-div.rnav {
-    top: 0px;
-    float: right;
+div.lnav li a:hover {
+    color: green;
+}
+
+ul.lnav_elements {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+}
+
+.lnav {
+    display: flex;
+    align-items: flex-end;
+}
+
+#home {
+    height: 25px;
+    width;
+    25px;
+}
+
+.rnav {
+    width: 50%;
+}
+
+div.rnav li a {
+    text-decoration: none;
+    color: rgb(159, 159, 159);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+}
+
+div.rnav li a:hover {
+    color: #ffffff;
 }
 
 ul.rnav_elements {
     list-style-type: none;
-    margin-top: 7px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
 }
 
-ul.rnav_elements li {
-    display: inline;
-    border-collapse: collapse;
-}
-
-ul.rnav_elements li a {
-    color: #9f9f9f;
-    padding: 10px;
-    background-color: #303040;
-    text-decoration: none;
-    font-family: verdana;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-ul.nav_elements li a:hover {
-    color: green;
-}
-
-ul.rnav_elements li a:hover {
-    color: #ffffff;
+.rnav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 #hire {
-    background-color: red;
-    color: white;
-    font-size: 9px;
-    border: none;
-    padding: 4px 7px 4px 7px;
-    border-radius: 1px;
+    color: #ffffff;
     font-weight: bold;
+    font-size: 8px;
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+    height: 15px;
+    padding: 1px 4px;
+}
+
+#bell {
+    height: 20px;
+    width: 20px;
+}
+
+#div_loc {
+    display: flex;
 }
 
 #loc {
-    display: inline-block;
+    height: 20px;
+    width: 20px;
 }
 
-ul.rnav_elements li>a>img {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    margin-top: 0px;
-    vertical-align: middle;
-}
-
-ul.rnav_elements li>a>div>img {
-    height: 30px;
-    width: 30px;
-    display: inline;
-    position: absolute;
-    margin-top: -5px;
-}
-
-div.brand-header {
+.brand_header {
+    background-color: #303040;
     height: 70px;
     width: 100%;
-    background-color: #303040;
     opacity: 0.6;
-    margin: 0px;
-    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    position: absolute;
 }
 
 #logo {
-    height: 70px;
-    margin: -6px 10px;
-    padding: 0px;
+    height: 50 px;
+    width: 180px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.rbrand_header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
 }
 
 #t20 {
-    vertical-align: middle;
-    position: absolute;
-    top: 50px;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
 }
 
 #lang {
-    width: 6vw;
-    border-radius: 3px;
-    font-family: Verdana;
+    height: 20px;
+    width: 80px;
+    border-radius: 2px;
+    border: none;
 }
 
-div.rbrand_header {}
+.img_panel {
+    width: 100%;
+    height: 500px;
+}
+
+#front_banner1 {
+    width: 100%;
+    height: 100%;
+}
