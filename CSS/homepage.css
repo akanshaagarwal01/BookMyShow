@@ -13,7 +13,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    overflow: ;
+    flex-wrap: wrap;
 }
 
 .lnav {
@@ -149,9 +149,153 @@ ul.rnav_elements {
 .img_panel {
     width: 100%;
     height: 500px;
+    position: relative;
 }
 
 #front_banner1 {
     width: 100%;
     height: 100%;
+}
+
+.outerMiddleDiv {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 70px;
+}
+
+.book_tickets {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.line1 {
+    display: flex;
+}
+
+.all {
+    position: relative;
+    display: inline-block;
+}
+
+#vis_drop {
+    display: block;
+    color: #ffffff;
+    background-color: rgb(190, 15, 23);
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 15px 10px 10px 10px;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+}
+
+.all_dropdown {
+    position: absolute;
+    display: none;
+}
+
+.all_dropdown a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(190, 15, 23);
+    font-size: 11px;
+    font-weight: bold;
+    padding: 15px 10px 10px 10px;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+}
+
+.all:hover .all_dropdown {
+    display: block;
+}
+
+.all_dropdown a:hover {
+    color: rgb(190, 15, 23);
+    background-color: #ffffff;
+}
+
+.all_r {
+    font-size: 11px;
+    font-weight: bold;
+    color: #080808;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 15px 10px 10px 10px;
+    flex: 3;
+}
+
+.line2 {
+    background: transparent;
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+#icon_drop {
+    height: 10px;
+    width: 10px;
+    float: right;
+}
+
+#icon_all {
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#icon_mov {
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#icon_ev {
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#icon_ply {
+    height: 18px;
+    width: 20px;
+    float: left;
+}
+
+#icon_sp {
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+#icon_detail {
+    height: 20px;
+    width: 20px;
+    float: right;
+    align: top;
+}
+
+.src_bar {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #dddddd;
+}
+
+.pop_text {
+    width: 30%;
+    padding: 5px 20px;
+    font-size: 12px;
 }
