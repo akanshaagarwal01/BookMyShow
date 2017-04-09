@@ -232,8 +232,21 @@ ul.rnav_elements {
     background-color: #ffffff;
     box-sizing: border-box;
     height: 50px;
-    padding: 15px 10px 10px 10px;
+    padding: 15px 10px 15px 10px;
     flex: 3;
+}
+
+.all_r input {
+    border: none;
+    outline: none;
+    width: 80%;
+    color: #080808;
+    font-weight: bold;
+}
+
+.all_r ::-webkit-input-placeholder {
+    color: #090909;
+    font-weight: bold;
 }
 
 .line2 {
@@ -295,7 +308,250 @@ ul.rnav_elements {
 }
 
 .pop_text {
-    width: 30%;
+    width: 20%;
     padding: 5px 20px;
     font-size: 12px;
 }
+
+.populars {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding-top: 5px;
+    border-right: 2px black;
+}
+
+.populars button {
+    height: 25px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-color: #ffffff;
+    font-size: 11px;
+    color: blue;
+    padding: 1px 20px 1px 20px;
+}
+
+.featured {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    font-size: 17px;
+}
+
+.fe_ev {
+    margin: auto;
+}
+
+.fe_ev hr {
+    width: 30px;
+}
+
+.fe_bnr {
+    position: absolute;
+    right: 0px;
+}
+
+.fe_bnr img {
+    height: 60px;
+    width: 400px;
+    margin: 30px;
+}
+
+.booking_panel {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bk_images {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    width: 300px;
+    border: 2px solid #eeeeee;
+    margin: 6px;
+}
+
+.bk_images img {
+    height: 150px;
+    width: 300px;
+    position: relative;
+}
+
+.bk_over {
+    height: 150px;
+    width: 300px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    z-index: -1;
+}
+
+.bk_over button {
+    color: white;
+    border: 1px solid white;
+    padding: 7px 20px 7px 20px;
+    background-color: transparent;
+    margin: 59px 90px;
+}
+
+.bk_images:hover .bk_over {
+    z-index: 1;
+}
+
+.bk_subtext {
+    height: 70px;
+    width: 300px;
+    margin: 10px;
+}
+
+#ad {
+    width: 302px;
+    height: 232px;
+    margin: 6px;
+}
+
+.vote_panel {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.top_movies {
+    width: 25%;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 40px 15px;
+    box-sizing: border-box;
+	z-index:1;
+}
+
+#tm {
+    color: #1a1a1a;
+    font-size: 12px;
+    display: block;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+#iyr {
+    color: #999999;
+    font-size: 11px;
+    display: block;
+    font-weight: bold;
+    line-height: 4px;
+	display:block;
+	padding: 10px;
+}
+
+.mv_ratings {
+	padding: 12px 10px;
+	color: rgb(220, 15, 23);
+	font-size: 20px;
+	border-bottom: 1px dashed #bbbbbb;
+}
+
+.mv_ratings:last-child {
+	border:none;
+}
+
+.percent {
+	color: rgb(220, 15, 23);
+	font-size: 14px;
+	font-weight:bold;
+	padding: 0px 10px;
+}
+
+.mv_name {
+	color: black;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.mv_name:hover {
+	text-decoration:underline;
+}
+
+.now_coming {
+    width: 75%;
+    background-color: #eeeeee;
+    display: flex;
+	flex-direction:column;
+    box-sizing: border-box;
+}
+
+.nc_1 {
+	height:110px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.tog_btn {
+	margin-top: 20px;
+	display:flex;
+}
+
+.tog_btn a{
+	background-color:transparent;
+	color:#aaaaaa;
+	font-size: 12px;
+	font-weight: bold;
+	padding:15px 30px;
+	border: 1px solid #999999;
+	outline:none;
+	text-decoration:none;
+	height: 45px;
+	box-sizing:border-box;
+}
+
+.tog_btn a:active {
+	background-color:white;
+	color:black;
+}
+
+.nc_1 text {
+	color:gray;
+	font-size:16px;
+	font-weight:bold;
+	padding:30px 100px 0px 0px;
+}
+
+.jfu {
+	background-color:white;
+	font-size:12px;	
+	padding:8px 44px 8px 60px;
+	overflow:hidden;
+	transform:rotate(-45deg);
+	height:15px;
+	width:90px;
+	margin-left:-60px;
+	align-self:center;
+	text-align:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
